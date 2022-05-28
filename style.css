@@ -1,6 +1,7 @@
 :root {
     --color-primary :rgb(23, 128, 128) ;
     --color-dark: rgb(24, 20, 20) ;
+    --color-dark-blue : rgb(6, 57, 112) ;
 }
 
 html, body {
@@ -41,4 +42,38 @@ nav {
     font-weight: bold;
     text-decoration: none;
     color: var(--color-primary);
+}
+
+section {
+    margin-top: 50px;
+    display: flex;
+    
+}
+
+.bg-image {
+    height: 200px;
+    width: 100%;
+    background-image: url(https://via.placeholder.com/1800x200) ;
+    background-size: cover;
+}
+
+.section-title {
+    text-align: right;
+    padding-right: 15px;
+    font-size: 50px;
+    width: 30%;
+}
+
+.section-title p {
+    color: var(--color-dark-blue);
+    font-weight: bold;
+    margin: 0;
+
+}
+
+.section-content {
+    padding-left: 30px;
+    width: 70%;
+    color: var(--color-dark-blue);
+    border-left: 4px solid var(--color-dark-blue);
 }
