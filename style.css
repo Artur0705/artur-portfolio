@@ -1,0 +1,26 @@
+:root {
+    --color-primary :rgb(23, 128, 128) ;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+    height: 90px; 
+    background-color: rgb(46, 43, 43);
+}
+
+.header-title  { 
+    padding-right: 10px;
+    height: 70px;
+    width: 500px;
+    background-color: var(--color-primary)
+    
+}
