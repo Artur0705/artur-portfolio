@@ -45,7 +45,7 @@ nav {
 }
 
 section {
-    margin-top: 50px;
+    margin: 25px 0;
     display: flex;
     
 }
@@ -118,5 +118,24 @@ section {
 .row {
     display: flex;
     flex-direction: row;
-  }
-  
+}
+
+.contact-links {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.contact-link-wrapper {
+    border-bottom: 4px solid var(--color-dark-blue);
+    margin-right: 20px;
+    padding: 0 15px; 
+}
+
+.contact-link-wrapper a {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--color-dark-blue);
+}
