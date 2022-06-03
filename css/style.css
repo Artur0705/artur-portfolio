@@ -53,7 +53,7 @@ section {
 .bg-image {
     height: 200px;
     width: 100%;
-    background-image: url(https://via.placeholder.com/1800x200);
+    background-image: url(../images/bg-image.webp);
     background-size: cover;
 }
 
