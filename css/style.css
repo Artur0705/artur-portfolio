@@ -34,26 +34,12 @@ section {
     background-size: cover;
 }
 
-.section-title {
-    text-align: right;
-    padding-right: 15px;
-    font-size: 50px;
-    width: 30%;
-}
-
-.section-title p {
-    color: var(--color-dark-blue);
-    font-weight: bold;
-    margin: 0;
-
-}
-
 .section-content {
-    padding-left: 30px;
-    padding-right: 200px;
-    width: 70%;
-    color: var(--color-dark-blue);
-    border-left: 4px solid var(--color-dark-blue);
+    /* padding-left: 30px; */
+    /* padding-right: 200px; */
+    /* width: 70%; */
+    /* color: var(--color-dark-blue); */
+    /* border-left: 4px solid var(--color-dark-blue); */
 }
 
 .project {
@@ -90,11 +76,6 @@ section {
 .project-stack {
     margin: 8px 0 0 0;
     font-size: 12px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
 }
 
 .contact-links {
