@@ -6,33 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artur's Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="css/media.css">
+    <!-- <link rel="stylesheet" href="css/media.css"> -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
 </head>
+
 <body>
+
     <header>
-        <div class="header-title">
-            <h1>ARTUR ALEKSANYAN</h1>
-        </div>
-
-        <nav>
-            <div class="nav-link-wrapper">
-                <a href="#about-me">About Me</a>
+        
+        <nav class="navbar navbar-expand-md navbar-dark  bg-dark">
+          <div class="container-fluid p-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              
+              <div class="header-title my-0 pe-3 bg-info color-dark me-auto d-flex align-items-center justify-content-end">
+                <h1>ARTUR ALEKSANYAN</h1>
+              </div>
+              <div>
+                <div class="d-inline mr-4 px-3 mx-3  border-bottom  border-info border-5 nav-link-wrapper">
+                    <a href="#about-me" class="text-info">About Me</a>
+                </div>
+    
+                <div class="d-inline  mr-4 px-3 mx-3  border-bottom  border-info border-5 nav-link-wrapper">
+                    <a href="#work" class="text-info">Work</a>
+                </div>
+    
+                <div class="d-inline mr-4 px-3 mx-3  border-bottom  border-info border-5 nav-link-wrapper">
+                    <a href="#contact-me" class="text-info">Contact Me</a>
+                </div>
+    
+                <div class="d-inline mr-4 px-3 mx-3  border-bottom  border-info border-5 nav-link-wrapper">
+                    <a href="./files/artur-resume.pdf" class="text-info" download>Resume</a>
+                </div>
+              </div>
             </div>
-
-            <div class="nav-link-wrapper">
-                <a href="#work">Work</a>
-            </div>
-
-            <div class="nav-link-wrapper">
-                <a href="#contact-me">Contact Me</a>
-            </div>
-
-            <div class="nav-link-wrapper">
-                <a href="./files/artur-resume.pdf" download>Resume</a>
-            </div>
+          </div>
         </nav>
-
-    </header>
+      </header>
 
      <div class="bg-image"></div>
 
@@ -150,6 +162,8 @@
 
         </div>
     </section>
+
+    <script src="/js/bootstrap.min.js"></script>
 
 </body>
 </html>
