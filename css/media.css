@@ -1,6 +1,16 @@
 /* Tablet */
 @media screen and (max-width: 768px) {
-    
+    nav {
+        padding-right: 30px;
+        margin-left: 25px;
+    }
+    .header-title {
+        font-size: 12px;
+    }
+
+    .nav-link-wrapper a {
+        font-size: 20px;
+    }
 }
 
 /* Mobile */
