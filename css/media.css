@@ -1,5 +1,10 @@
 /* Tablet */
 @media screen and (max-width: 768px) {
+    
+    body {
+        overflow-x: hidden;
+    }
+      
     nav {
         padding-right: 30px;
         margin-left: 25px;
@@ -33,7 +38,7 @@
     }
 
     .contact-link-wrapper {
-        margin: 10px 0;
+        margin: 10px ;
     }
 
 }
