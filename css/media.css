@@ -11,6 +11,31 @@
     .nav-link-wrapper a {
         font-size: 20px;
     }
+
+    .section-content {
+        font-size: 18px;
+    }
+
+    .project {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .section-title {
+        font-size: 46px;
+    }
+
+    .contact-links {
+        margin-top: 0;
+    }
+
+    .contact-link-wrapper {
+        margin: 10px 0;
+    }
+
 }
 
 /* Mobile */
