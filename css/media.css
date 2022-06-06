@@ -51,7 +51,46 @@
 
 }
 
-/* Mobile */
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 576px) {
+    
+    nav {
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+
+    section {
+        flex-direction: column;
+    }
+
+    .section-title {
+        text-align: left;
+        margin-left: 30px;
+        border-radius: 4px solid var(--color-dark-blue); 
+    }
+
+    .section-content {
+        border: none;
+        margin-top: 20px;
+        padding-right: 50px;
+    }
+
+    #about-me .section-content {
+        padding-left: 40px;
+    }
+
+    .contact-link-wrapper a {
+        font-size: 18px;
+    }
+
+    .header-title {
+        width: auto;
+        text-align: center;
+        padding-left: 10px;
+    }
+
+    .header-title h1 {
+        font-size: 26px
+    }
     
 }
