@@ -27,6 +27,11 @@ header {
     background-color: var(--color-primary);  
 }
 
+.about-me {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 nav {
     display: flex;
     padding-right: 80px;
@@ -123,6 +128,7 @@ section {
 
 .contact-links {
     margin-top: 40px;
+    display: flex;
     justify-content: space-between;
     align-self: center;
 }
@@ -140,7 +146,23 @@ section {
     color: var(--color-dark-blue);
 }
 
-.about-me {
-    font-size: 24px;
-    font-weight: bold;
-}
+span[data-descr] {
+    position: relative;
+    text-decoration: none;
+    color: var(--color-dark-blue);
+    cursor: grab;
+  }
+
+span[data-descr]:hover::after {
+    content: attr(data-descr);
+    position: relative;
+    left: 0px;
+    top: 40px;
+    min-width: 200px;
+    border: 1px #9c9a9a solid;
+    background-color: rgb(31, 29, 29);
+    padding: 3px;
+    color: white;
+    font-size: 50%;
+    z-index: 1;
+  }

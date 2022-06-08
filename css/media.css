@@ -49,6 +49,10 @@
         margin: 10px ;
     }
 
+    span {
+        
+    }
+
 }
 
 @media screen and (max-width: 576px) {
