@@ -150,7 +150,7 @@ span[data-descr] {
     position: relative;
     text-decoration: none;
     color: var(--color-dark-blue);
-    cursor: grab;
+    cursor: pointer;
   }
 
 span[data-descr]:hover::after {
