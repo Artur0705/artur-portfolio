@@ -42,6 +42,7 @@
     }
 
     .contact-links {
+        flex-direction: column;
         margin-top: 0;
     }
 
